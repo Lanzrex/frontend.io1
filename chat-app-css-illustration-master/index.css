@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*background styling*/
+.background1 {
+    background-color: White;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.background2 {
+    background-image: linear-gradient(80deg, hsl(264, 100%, 61%)10%, hsl(293, 100%, 63%)80% );
+    height: 600px;
+    width: 24vw;
+    left: 0;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    position: absolute;
+}
+
+.background3 {
+    background-color: aliceblue;
+    height: 600px;
+    width: 24vw;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    position: absolute;
+}
+
+/*banner*/
+.wholebanner {
+    height: 500px;
+    width: 750px;
+    margin-left: 20vw;
+    margin-top: 8vw;
+    padding: 15px 15px;
+    position: absolute;
+}
+
+/*The phone*/
+.chat{
+    background-color: hsl(270, 20%, 96%);
+    width: 250px;
+    position: absolute;
+    border: 10px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(24, 2, 2, 0.507);
+}
+
+/*sub-heading UI*/
+.topnotch {
+    background-color: white;
+    height: 20px;
+    width: 120px;
+    position: absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.messenger {
+    background-image: linear-gradient(80deg, hsl(264, 100%, 61%)10%, hsl(293, 100%, 63%)80% );
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 9px;
+    color: hsl(276, 100%, 81%);
+    font-size: 8px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/*chats contents*/
+.ccontent1 {
+    background-color: floralwhite;
+    width: 125px;
+   color: hsl(276, 55%, 52%);
+   font-size: 9px;
+   padding: 10px;
+   margin: 7px;
+   display: block;
+   border-radius: 10px;
+}
+
+.ccontent2 {
+    background-color: white;
+    width: 125px;
+    color: hsl(271, 15%, 43%);
+    font-size: 9px;
+    padding: 10px;
+    margin-top: 7px;
+    margin-left: 90px;
+    border-radius: 10px;
+}
+
+.chatimg {
+    float: left;
+    height: 45px;
+    width: 45px;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.allchatimgs {
+    margin-left: 80px;
+    margin-top: 8px;
+
+}
+
+.form1 {
+    background-image: linear-gradient(80deg, hsl(264, 100%, 61%)10%, hsl(293, 100%, 63%)80% );
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.form2{
+    background-color: white;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 9px;
+}
+/*message at the right*/
+.rightdisplay {
+    width: 400px;
+    margin-left: 400px;
+    font-family: [Rubik];
+    margin-top: 130px;
+    position: absolute;
+
+}
